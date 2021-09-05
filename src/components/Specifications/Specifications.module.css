@@ -1,0 +1,10 @@
+.specifications{
+    background-color: rgb(124, 212, 205);
+    font-size: 25px;
+    display: flex;
+  }
+
+  .specifications__inner{
+    display: flex;
+    flex-direction: column;
+  }
