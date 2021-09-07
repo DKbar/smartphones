@@ -1,0 +1,73 @@
+.items{
+   /*  text-align: center; */
+    padding-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    display: inline-block;
+    height: 336px;
+}
+
+.button-wrap {
+    position: relative;
+    overflow: visible;
+    display: inline-block;
+}
+
+
+.button-wrap .active{
+    width: 420px;
+    height: 336px;
+    left: -250px;
+    overflow-y: scroll;
+    top: 0;
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    box-shadow: 0px 16px 32px rgba(35, 39, 51, 0.1);
+    border-radius: 4px;
+}
+
+.button-wrap .active::-webkit-scrollbar {
+    width: 4px; /* ширина для вертикального скролла */
+    height: 0;
+    background-color: #ffffff;
+} 
+
+.button-wrap .active::-webkit-scrollbar-thumb {
+    background-color: #843465;
+    border-radius: 9em;
+    height: 10px;
+    box-shadow: inset 1px 1px 10px #f3faf7;
+}
+
+.search{
+    margin:  34px 39px 18px 18px;
+    height: 47px;
+    width: 359px;
+    left: 359px;
+    top: 0px;
+
+    background: #FFFFFF;
+    border: 1px solid #C1C1C1;
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+}
+.unshowed__phones{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.unshowed__phones__logo{
+    margin-left: 18px;
+width: 20px;
+}
+.unshowed__phones__photo{
+height: 50px;
+margin: 0 18px;
+}

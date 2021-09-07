@@ -1,82 +1,94 @@
 .smartphones{
-  padding-top: 101px;
-  font-size: 25px;
-
-  }
-
-.smartphones__inner{
-overflow-y: ;
+  background: #FFFFFF;
+  padding-top: 63px;
 }
-.smartphones__title{
-  position: absolute;
-  width: 280px;
-  height: 60px;
-  left: 165px;
-  top: 160px;
 
-  font-family: Roboto;
-  font-style: normal;
+.smartphones_inner{
+
+}
+
+.smartphones__text{
+  display: flex;
+  justify-content: space-between;  /* вмете с flex, для разделения элементов */
+  align-items: center;
+}
+
+.smartphones__title{
   font-weight: bold;
   font-size: 48px;
-  line-height: 60px;
-  /* identical to box height, or 125% */
 
-  letter-spacing: 0.02em;
 
   color: #828286;
 }
 
 .smartphones__filter{
-  position: absolute;
-  width: 263px;
-  height: 43px;
-  left: 1012px;
-  top: 158px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
-  line-height: 60px;
-  /* or 333% */
-
-  letter-spacing: 0.02em;
-
+  
   color: #0D5ADC;
 }
-.smartphones__text{
-  position: absolute;
-width: 192px;
-height: 43px;
-left: 203px;
-top: 346px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 60px;
-/* or 333% */
-
-letter-spacing: 0.02em;
-
-color: #0D5ADC;
+.smartphones__amount{
+  margin-left: 10px;
+  text-decoration: none;
+  color: #0D5ADC;
 }
-.styles.smartphones__checkbox{
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
 
+.smartphones__comparison{
+  padding-top: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  
+}
+.smartphones__differences{
+  display: flex;
+  align-items: center;
+  
+}
+.smartphones__checkbox{
   height: 24px;
   width: 24px;
   left: 0px;
   top: 0px;
-  border: 2px solid #C1C1C2;
   border-radius: 4px;
 
 }
-/* .smartphones__phones{
+.smartphones__checktext{
+  width: 192px;
+  margin-left: 14px;
+
+  font-weight: normal;
+  font-size: 18px;
+
+  color: #0D5ADC;
+}
+.smartphones__phones{
+  
   display: flex;
-} */
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.smartphones__phone{
+  margin-left: 40px;
+
+}
+
+.styles.smartphones__block{
+  display: flex;
+}
+.smartphones__phomeImg {
+  height: 120px;
+}
+
+.smartphones__phoneName{
+  font-weight: 500;
+  font-size: 18px;
+  
+}
+
+.specifications__inner p{
+  font-weight: 500;
+  font-size: 18px;
+}

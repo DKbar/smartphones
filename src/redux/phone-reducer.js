@@ -1,9 +1,9 @@
-import iphone12 from "../assets/images/Apple iPhone 12.png"
-import mi11lite from "../assets/images/Xiaomi Mi 11 Lite.png"
-import galaxya72 from "../assets/images/Samsung Galaxy A72.png"
-import galaxys21 from "../assets/images/Samsung Galaxy S21.png"
-import iphonexr from "../assets/images/Apple iPhone Xr.png"
-import realme8pro from "../assets/images/Realme 8 Pro.png"
+import iphone12 from "../assets/images/Apple iPhone 12.svg"
+import mi11lite from "../assets/images/Xiaomi Mi 11 Lite.svg"
+import galaxya72 from "../assets/images/Samsung Galaxy A72.svg"
+import galaxys21 from "../assets/images/Samsung Galaxy S21.svg"
+import iphonexr from "../assets/images/Apple iPhone Xr.svg"
+import realme8pro from "../assets/images/Realme 8 Pro.svg"
 
 
 let initialState = [
@@ -97,7 +97,7 @@ let initialState = [
         wirelessCharging: false,
         cost: "24 999 ₽"
     },
-
+        
 ]
 
 

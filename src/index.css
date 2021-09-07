@@ -37,21 +37,22 @@
 
 body{
   margin: 0;
-  font-family: 'Raleway', sans-serif;
-  font-size: 14px;
-  color: #6c7279;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 18px;
+  color: #3B4157;
   -webkit-font-smoothing: antialiased;  /* сглаживание шрифтов */
   background-color: #fff;
 }
-/* html{
+html{
   box-sizing: border-box;
-} */
+}
 
-/* *,
+*,
 *:after,
 *:before{
     box-sizing: inherit;  
-} */
+}
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
