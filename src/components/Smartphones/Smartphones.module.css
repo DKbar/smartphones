@@ -1,10 +1,16 @@
 .smartphones{
-  background: #FFFFFF;
-  padding-top: 63px;
+  
+}
+.smartphones__bord{
+  background-color: #F4F9FC;
 }
 
 .smartphones_inner{
+  padding-top: 60px;
+  height: 336px;
+  border-bottom: 1px solid #CDCFD2;
 
+  background-color: #ffffff;
 }
 
 .smartphones__text{
@@ -87,8 +93,51 @@
   font-size: 18px;
   
 }
+.specifications{
 
-.specifications__inner p{
+  font-size: 25px;
+  display: flex;
+  
+}
+
+.specifications__inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.specifications__inner div{
+  height: 100px;
   font-weight: 500;
   font-size: 18px;
+  text-transform: uppercase;
+   padding-top: 40px;
+
+   color: #A4A9B9;
+  border-bottom: 1px solid #CDCFD2;
 }
+
+.phoneSpec{
+  width: 100%;
+  display: flex;
+
+  justify-content: space-around;
+  text-align: center;
+
+}
+
+.specifications__items{
+  width: 100%;
+}
+
+.specifications__items div{
+  height: 100px;
+  font-weight: 500;
+  font-size: 18px;
+  align-items: center;
+   padding-top: 40px;
+   border-bottom: 1px solid #CDCFD2;
+  
+ 
+}
+
