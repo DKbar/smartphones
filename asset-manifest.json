@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.c2cfa262.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.442cc99c.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.442cc99c.chunk.js.map",
-    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.d9cbdffd.js",
-    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.d9cbdffd.js.map",
-    "static/js/2.bd4c937a.chunk.js": "/react-gh-pages/static/js/2.bd4c937a.chunk.js",
-    "static/js/2.bd4c937a.chunk.js.map": "/react-gh-pages/static/js/2.bd4c937a.chunk.js.map",
-    "static/js/3.cfc9ec8d.chunk.js": "/react-gh-pages/static/js/3.cfc9ec8d.chunk.js",
-    "static/js/3.cfc9ec8d.chunk.js.map": "/react-gh-pages/static/js/3.cfc9ec8d.chunk.js.map",
-    "index.html": "/react-gh-pages/index.html",
-    "static/css/main.c2cfa262.chunk.css.map": "/react-gh-pages/static/css/main.c2cfa262.chunk.css.map",
-    "static/js/2.bd4c937a.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.bd4c937a.chunk.js.LICENSE.txt",
-    "static/media/Apple iPhone 12.8af42fd0.png": "/react-gh-pages/static/media/Apple iPhone 12.8af42fd0.png",
-    "static/media/Samsung Galaxy A72.a84d66dd.png": "/react-gh-pages/static/media/Samsung Galaxy A72.a84d66dd.png",
-    "static/media/Xiaomi Mi 11 Lite.3755f69e.png": "/react-gh-pages/static/media/Xiaomi Mi 11 Lite.3755f69e.png",
-    "static/media/lk.fad2203f.svg": "/react-gh-pages/static/media/lk.fad2203f.svg",
-    "static/media/index.css": "/react-gh-pages/static/media/roboto-v27-latin_cyrillic-regular.91f689ac.woff2"
+    "main.css": "/smartphones/static/css/main.332e5a32.chunk.css",
+    "main.js": "/smartphones/static/js/main.442cc99c.chunk.js",
+    "main.js.map": "/smartphones/static/js/main.442cc99c.chunk.js.map",
+    "runtime-main.js": "/smartphones/static/js/runtime-main.94c8731c.js",
+    "runtime-main.js.map": "/smartphones/static/js/runtime-main.94c8731c.js.map",
+    "static/js/2.bd4c937a.chunk.js": "/smartphones/static/js/2.bd4c937a.chunk.js",
+    "static/js/2.bd4c937a.chunk.js.map": "/smartphones/static/js/2.bd4c937a.chunk.js.map",
+    "static/js/3.cfc9ec8d.chunk.js": "/smartphones/static/js/3.cfc9ec8d.chunk.js",
+    "static/js/3.cfc9ec8d.chunk.js.map": "/smartphones/static/js/3.cfc9ec8d.chunk.js.map",
+    "index.html": "/smartphones/index.html",
+    "static/css/main.332e5a32.chunk.css.map": "/smartphones/static/css/main.332e5a32.chunk.css.map",
+    "static/js/2.bd4c937a.chunk.js.LICENSE.txt": "/smartphones/static/js/2.bd4c937a.chunk.js.LICENSE.txt",
+    "static/media/Apple iPhone 12.8af42fd0.png": "/smartphones/static/media/Apple iPhone 12.8af42fd0.png",
+    "static/media/Samsung Galaxy A72.a84d66dd.png": "/smartphones/static/media/Samsung Galaxy A72.a84d66dd.png",
+    "static/media/Xiaomi Mi 11 Lite.3755f69e.png": "/smartphones/static/media/Xiaomi Mi 11 Lite.3755f69e.png",
+    "static/media/lk.fad2203f.svg": "/smartphones/static/media/lk.fad2203f.svg",
+    "static/media/index.css": "/smartphones/static/media/roboto-v27-latin_cyrillic-regular.91f689ac.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.d9cbdffd.js",
+    "static/js/runtime-main.94c8731c.js",
     "static/js/2.bd4c937a.chunk.js",
-    "static/css/main.c2cfa262.chunk.css",
+    "static/css/main.332e5a32.chunk.css",
     "static/js/main.442cc99c.chunk.js"
   ]
 }
