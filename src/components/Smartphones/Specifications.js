@@ -11,7 +11,7 @@ const Specifications = (props) => {
     return (<>
         <div className={styles.specifications}>
             <div className={styles.specifications__inner}>
-                <p>Производитель</p>
+                <div>Производитель</div>
                 <div>Год релиза</div>
                 <div>Диагональ экрана (дюйм)</div>
                 <div>Страна-производитель</div>
@@ -22,7 +22,12 @@ const Specifications = (props) => {
                 <div>Поддержка безпроводной зарядки</div>
                 <div>Стоимость</div>
             </div>
+        <div className={styles.phoneSpec}> 
             {phoneSpec}
+        </div>
+            
+
+           
         </div>
 
     </>

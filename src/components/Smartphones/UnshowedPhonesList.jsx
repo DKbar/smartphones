@@ -11,7 +11,7 @@ const UnshowedPhonesList = (props) => {
             <img src={logo} alt="" className={styles.unshowed__phones__logo}
             onClick={()=>props.onPhoneChange(props.id, phone.id)}></img>
             <img src={phone.photo} alt=""  className={styles.unshowed__phones__photo}/>
-            <span calssName={styles.unshowed__phones__photo}>{phone.phone} </span>  
+            <span className={styles.unshowed__phones__photo}>{phone.phone} </span>  
                 
         </div>     
         )})}

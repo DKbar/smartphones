@@ -50,7 +50,7 @@ const Smartphones = (props) => {
     return (
         <div className={styles.smartphones}>
             <div className='container'>
-                <div className={styles.smartphones__inner}>
+                <div className={styles.smartphones_inner}>
                     <div className={styles.smartphones__text}>
                         <div className={styles.smartphones__title}>Смартфоны</div>
                         <div className={styles.smartphones__filter}>
@@ -62,12 +62,17 @@ const Smartphones = (props) => {
                             <input className={styles.smartphones__checkbox} type="checkbox" />
                             <div className={styles.smartphones__checktext}>Показать различия</div>
                         </div>{phones}
-                        {/* <div>{phones}</div> */}
-                        
                     </div>
                 </div>
-               <Specifications phones = {showedPhones} />
-            </div>
+                </div>
+                <div className={styles.smartphones__bord}>
+                <div className='container'>
+                  <Specifications phones = {showedPhones} />  
+                </div>
+                </div>
+
+               
+            
 
 
         </div>
