@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/smartphones/static/css/main.422aeeee.chunk.css",
-    "main.js": "/smartphones/static/js/main.d1798813.chunk.js",
-    "main.js.map": "/smartphones/static/js/main.d1798813.chunk.js.map",
+    "main.css": "/smartphones/static/css/main.c94f3203.chunk.css",
+    "main.js": "/smartphones/static/js/main.3f533756.chunk.js",
+    "main.js.map": "/smartphones/static/js/main.3f533756.chunk.js.map",
     "runtime-main.js": "/smartphones/static/js/runtime-main.2684af04.js",
     "runtime-main.js.map": "/smartphones/static/js/runtime-main.2684af04.js.map",
     "static/js/2.bdda1a13.chunk.js": "/smartphones/static/js/2.bdda1a13.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.86c2a923.chunk.js": "/smartphones/static/js/3.86c2a923.chunk.js",
     "static/js/3.86c2a923.chunk.js.map": "/smartphones/static/js/3.86c2a923.chunk.js.map",
     "index.html": "/smartphones/index.html",
-    "static/css/main.422aeeee.chunk.css.map": "/smartphones/static/css/main.422aeeee.chunk.css.map",
+    "static/css/main.c94f3203.chunk.css.map": "/smartphones/static/css/main.c94f3203.chunk.css.map",
     "static/js/2.bdda1a13.chunk.js.LICENSE.txt": "/smartphones/static/js/2.bdda1a13.chunk.js.LICENSE.txt",
     "static/media/Apple iPhone 12.221a8c20.svg": "/smartphones/static/media/Apple iPhone 12.221a8c20.svg",
     "static/media/Apple iPhone Xr.6f8e2d78.svg": "/smartphones/static/media/Apple iPhone Xr.6f8e2d78.svg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.2684af04.js",
     "static/js/2.bdda1a13.chunk.js",
-    "static/css/main.422aeeee.chunk.css",
-    "static/js/main.d1798813.chunk.js"
+    "static/css/main.c94f3203.chunk.css",
+    "static/js/main.3f533756.chunk.js"
   ]
 }
