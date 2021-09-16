@@ -1,6 +1,10 @@
 import styles from "./Smartphones.module.css"
-const SmartphonesAmount = ({onClick}) => {
-    let items = [];
+
+type PropsType = {
+    onAmountChange: (amount: number) => void
+}
+const SmartphonesAmount: React.FC<PropsType>  = ({onAmountChange}) => {
+    let items:Array<number> = [];
     for (let i = 2; i <= 6; i++) {
         items.push(i);
     }
@@ -10,7 +14,7 @@ const SmartphonesAmount = ({onClick}) => {
             <a className={styles.smartphones__amount} 
             key={index} 
             href="#/" 
-            onClick={(e)=>onClick(+e.target.innerText)}>{item}</a>
+            onClick={(e)=>onAmountChange(+(e.target as HTMLInputElement).innerText)}>{item}</a>
         )}</>
     )
 }

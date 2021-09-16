@@ -4,39 +4,43 @@ import styles from "./Smartphones.module.css"
 import SmartphonesAmount from "./SmartphonesAmount"
 import UnshowedPhones from "./UnshowedPhones"
 import Specifications from "./Specifications"
+import { PhoneDataType } from "../../redux/phone-reducer"
 
+type PropsType = {
+    phones: Array<PhoneDataType>
+}
 
-const Smartphones = (props) => {
+const Smartphones: React.FC<PropsType> = ({phones}) => {
     
-    const allPhones = props.phones
-    const [amount, setAmount] = useState(3)
+    const allPhones = phones
+    const [amount, setAmount] = useState<any>(3)
     let [showedPhones, setShowedPhones] = useState(allPhones.slice(0, amount))
     let [unshowedPhones, setUnshowedPhones] = useState([...allPhones].splice(amount))
 
-    let onClick = (amount) => {
-        
+    let onAmountChange = (amount: any) => {
         setAmount(amount)
         setShowedPhones(allPhones.slice(0, amount))
         setUnshowedPhones([...allPhones].splice(amount))
     }
 
-    let onPhoneChange = (id, id1) => {
+    let onPhoneChange = (id:string, id1:string) => {
         setShowedPhones(
             showedPhones.map(phone => phone.id === id ?
                 unshowedPhones.filter(phone => phone.id === id1)[0]
                 : phone)
         )
         setUnshowedPhones(unshowedPhones.map(phone => phone.id === id1 ?
-                    props.phones.filter(phone => phone.id === id)[0]
+                    phones.filter(phone => phone.id === id)[0]
                     : phone)
                 )
     }
 
-    let phones = showedPhones.map(phone => {
+
+    let phonesShow = showedPhones.map(phone => {
         return (
             <div key={phone.id} className={styles.smartphones__phones}>
                 <Phone
-                    phone={phone.phone}
+                    model={phone.model}
                     photo={phone.photo}
 
                 />
@@ -54,14 +58,14 @@ const Smartphones = (props) => {
                     <div className={styles.smartphones__text}>
                         <div className={styles.smartphones__title}>Смартфоны</div>
                         <div className={styles.smartphones__filter}>
-                            Отобразить товары: <SmartphonesAmount onClick={onClick} />
+                            Отобразить товары: <SmartphonesAmount onAmountChange={onAmountChange} />
                         </div>
                     </div>
                     <div className={styles.smartphones__comparison}>
                         <div className={styles.smartphones__differences}>
                             <input className={styles.smartphones__checkbox} type="checkbox" />
                             <div className={styles.smartphones__checktext}>Показать различия</div>
-                        </div>{phones}
+                        </div>{phonesShow}
                     </div>
                 </div>
                 </div>

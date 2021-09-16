@@ -6,10 +6,29 @@ import iphonexr from "../assets/images/Apple iPhone Xr.svg"
 import realme8pro from "../assets/images/Realme 8 Pro.svg"
 
 
-let initialState = [
+
+
+export type PhoneDataType = {
+    id: string
+    model: string
+    photo: string
+    manufacturer: string
+    releaseYear: number
+    screenDiagonal: string
+    madeIn: string
+    memoryCapacity: string
+    screenRefreshRate: string
+    nfc: boolean
+    esim: boolean
+    wirelessCharging: boolean
+    cost: string
+}
+
+export type InitialStateType= Array<PhoneDataType>
+let initialState: InitialStateType = [
     {
         id: "0",
-        phone: "Apple iPhone 12",
+        model: "Apple iPhone 12",
         photo: iphone12,
         manufacturer: "Apple",
         releaseYear: 2020,
@@ -20,11 +39,11 @@ let initialState = [
         nfc: false,
         esim: true,
         wirelessCharging: true,
-        cost: "81 990  ₽"
+        cost: "81 990  ₽",
     },
     {
         id: "1",
-        phone: "Xiaomi Mi 11 Lite",
+        model: "Xiaomi Mi 11 Lite",
         photo: mi11lite,
         manufacturer: "Xiaomi",
         releaseYear: 2021,
@@ -39,7 +58,7 @@ let initialState = [
     },
     {
         id: "2",
-        phone: "Samsung Galaxy A72",
+        model: "Samsung Galaxy A72",
         photo: galaxya72,
         manufacturer: "Samsung",
         releaseYear: 2021,
@@ -54,7 +73,7 @@ let initialState = [
     },
     {
         id: "3",
-        phone: "Samsung Galaxy S21",
+        model: "Samsung Galaxy S21",
         photo: galaxys21,
         manufacturer: "Samsung",
         releaseYear: 2021,
@@ -69,7 +88,7 @@ let initialState = [
     },
     {
         id: "4",
-        phone: "Apple iPhone Xr",
+        model: "Apple iPhone Xr",
         photo: iphonexr,
         manufacturer: "Apple",
         releaseYear: 2018,
@@ -84,7 +103,7 @@ let initialState = [
     },
     {
         id: "5",
-        phone: "Realme 8 Pro",
+        model: "Realme 8 Pro",
         photo: realme8pro,
         manufacturer: "Realme",
         releaseYear: 2021,
@@ -101,7 +120,7 @@ let initialState = [
 ]
 
 
-const phoneReducer = (state = initialState, action) => {
+const phoneReducer = (state = initialState, action:any):InitialStateType => {
     switch (action.type) {
         default:
             return state

@@ -1,15 +1,20 @@
 import Specification from "./Specification"
-import styles from "./Specifications.module.css"
+import styles from "./Smartphones.module.css"
+import { PhoneDataType } from "../../redux/phone-reducer"
 
-const Specifications = (props) => {
-    let phoneSpec = props.phones.map(phone => {
+type PropsType = {
+    phones: Array<PhoneDataType>
+}
+const Specifications: React.FC<PropsType> = ({phones}) => {
+    
+    let phoneSpec = phones.map(phone => {
         return (
             <Specification key={phone.id} phone={phone} />
         )
     })
     return (<>
         <div className={styles.specifications}>
-            <div >
+            <div className={styles.specifications__inner}>
                 <div>Производитель</div>
                 <div>Год релиза</div>
                 <div>Диагональ экрана (дюйм)</div>
@@ -21,7 +26,12 @@ const Specifications = (props) => {
                 <div>Поддержка безпроводной зарядки</div>
                 <div>Стоимость</div>
             </div>
+        <div className={styles.phoneSpec}> 
             {phoneSpec}
+        </div>
+            
+
+           
         </div>
 
     </>

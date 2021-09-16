@@ -1,6 +1,4 @@
-.smartphones{
-  
-}
+
 .smartphones__bord{
   background-color: #F4F9FC;
 }
@@ -15,7 +13,7 @@
 
 .smartphones__text{
   display: flex;
-  justify-content: space-between;  /* вмете с flex, для разделения элементов */
+  justify-content: space-between; 
   align-items: center;
 }
 
@@ -84,7 +82,7 @@
 .styles.smartphones__block{
   display: flex;
 }
-.smartphones__phomeImg {
+.smartphones__phoneImg {
   height: 120px;
 }
 

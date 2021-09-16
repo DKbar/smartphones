@@ -2,8 +2,15 @@ import logo from "../../assets/images/chevron_small.svg"
 import styles from "./UnshowedPhones.module.css"
 import { useState } from "react";
 import UnshowedPhonesList from "./UnshowedPhonesList";
+import { PhoneDataType } from "../../redux/phone-reducer";
 
-const UnshowedPhones = ({id, phones, onPhoneChange }) => {
+type PropsType = {
+    id: string
+    phones: Array<PhoneDataType>
+    onPhoneChange: (id: string, phoneId: string) => void
+}
+
+const UnshowedPhones: React.FC<PropsType> = ({id, phones, onPhoneChange }) => {
     let [active, setActive] = useState(false);
     let onClick = () => {
         setActive(!active);
@@ -18,11 +25,6 @@ const UnshowedPhones = ({id, phones, onPhoneChange }) => {
                         <input className={styles.search}></input>
                     </div>
                     <UnshowedPhonesList id={id} phones={phones} onPhoneChange={onPhoneChange} />
-
-                    {/*                     <p onClick={onClick}>Home</p>
-                    <p onClick={onClick}>Car</p>
-                    <p onClick={onClick}>Sport</p>
-                    <p onClick={onClick}>...</p> */}
                 </div>
             </span>
         </div>
